@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>user registration</h1>
+</div>
+
+<div class="container">
+  <form #login="ngForm" (ngSubmit)="submit(login)">
+    <div class="form-group">
+      <label for="firstname">firstname</label>
+      <input type="text" name="firstname " class="form-control" ngModel />
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <label for="email">email</label>
+      <input type="text" name="eamil " class="form-control" ngModel />
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <label for="password">password</label>
+      <input type="text" name="password" class="form-control" ngModel />
+    </div>
+    <pre></pre>
+    <button class="btn btn-primary" type="submit">submit</button>
+  </form>
+</div>
